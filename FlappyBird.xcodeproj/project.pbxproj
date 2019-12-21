@@ -14,6 +14,8 @@
 		7A91E53C23A55EC200C2B418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A91E53B23A55EC200C2B418 /* Assets.xcassets */; };
 		7A91E53F23A55EC200C2B418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A91E53D23A55EC200C2B418 /* LaunchScreen.storyboard */; };
 		7A91E54723A562BD00C2B418 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91E54623A562BD00C2B418 /* GameScene.swift */; };
+		7A91E56A23AE726500C2B418 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A91E56823AE726500C2B418 /* bgm.mp3 */; };
+		7A91E56B23AE726500C2B418 /* item.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A91E56923AE726500C2B418 /* item.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7A91E53E23A55EC200C2B418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A91E54023A55EC200C2B418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A91E54623A562BD00C2B418 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7A91E56823AE726500C2B418 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		7A91E56923AE726500C2B418 /* item.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = item.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				7A91E53B23A55EC200C2B418 /* Assets.xcassets */,
 				7A91E53D23A55EC200C2B418 /* LaunchScreen.storyboard */,
 				7A91E54023A55EC200C2B418 /* Info.plist */,
+				7A91E56823AE726500C2B418 /* bgm.mp3 */,
+				7A91E56923AE726500C2B418 /* item.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -129,8 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A91E53F23A55EC200C2B418 /* LaunchScreen.storyboard in Resources */,
+				7A91E56B23AE726500C2B418 /* item.mp3 in Resources */,
 				7A91E53C23A55EC200C2B418 /* Assets.xcassets in Resources */,
 				7A91E53A23A55EBE00C2B418 /* Main.storyboard in Resources */,
+				7A91E56A23AE726500C2B418 /* bgm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
